@@ -11,7 +11,7 @@ import SwiftUI
 struct LhamaFoodApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            FoodTabView()
         }
     }
 }

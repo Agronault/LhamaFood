@@ -8,17 +8,38 @@
 
 /* Begin PBXBuildFile section */
 		ACDC1F252C722DA8001E69C4 /* LhamaFoodApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDC1F242C722DA8001E69C4 /* LhamaFoodApp.swift */; };
-		ACDC1F272C722DA8001E69C4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDC1F262C722DA8001E69C4 /* ContentView.swift */; };
+		ACDC1F272C722DA8001E69C4 /* FoodTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDC1F262C722DA8001E69C4 /* FoodTabView.swift */; };
 		ACDC1F292C722DA9001E69C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACDC1F282C722DA9001E69C4 /* Assets.xcassets */; };
 		ACDC1F2C2C722DA9001E69C4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACDC1F2B2C722DA9001E69C4 /* Preview Assets.xcassets */; };
+		ACDC1F332C722F49001E69C4 /* FoodListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDC1F322C722F49001E69C4 /* FoodListView.swift */; };
+		ACDC1F352C722F5C001E69C4 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDC1F342C722F5C001E69C4 /* AccountView.swift */; };
+		ACDC1F372C722F6B001E69C4 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDC1F362C722F6B001E69C4 /* OrderView.swift */; };
+		ACDC1F392C7251BC001E69C4 /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDC1F382C7251BC001E69C4 /* Food.swift */; };
+		ACDC1F3B2C72732B001E69C4 /* FoodListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDC1F3A2C72732B001E69C4 /* FoodListItem.swift */; };
+		ACDC1F3D2C727476001E69C4 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDC1F3C2C727476001E69C4 /* NetworkManager.swift */; };
+		ACDC1F3F2C727670001E69C4 /* LhamaError.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDC1F3E2C727670001E69C4 /* LhamaError.swift */; };
+		ACDC1F412C727FDC001E69C4 /* FoodListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDC1F402C727FDC001E69C4 /* FoodListViewModel.swift */; };
+		ACDC1F432C72826F001E69C4 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDC1F422C72826F001E69C4 /* Alert.swift */; };
+		ACDC1F462C728D42001E69C4 /* Shimmer in Frameworks */ = {isa = PBXBuildFile; productRef = ACDC1F452C728D42001E69C4 /* Shimmer */; };
+		ACDC1F4F2C72A187001E69C4 /* FoodDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDC1F4E2C72A187001E69C4 /* FoodDetails.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		ACDC1F212C722DA8001E69C4 /* LhamaFood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LhamaFood.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACDC1F242C722DA8001E69C4 /* LhamaFoodApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LhamaFoodApp.swift; sourceTree = "<group>"; };
-		ACDC1F262C722DA8001E69C4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ACDC1F262C722DA8001E69C4 /* FoodTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTabView.swift; sourceTree = "<group>"; };
 		ACDC1F282C722DA9001E69C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ACDC1F2B2C722DA9001E69C4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ACDC1F322C722F49001E69C4 /* FoodListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodListView.swift; sourceTree = "<group>"; };
+		ACDC1F342C722F5C001E69C4 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		ACDC1F362C722F6B001E69C4 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
+		ACDC1F382C7251BC001E69C4 /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
+		ACDC1F3A2C72732B001E69C4 /* FoodListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodListItem.swift; sourceTree = "<group>"; };
+		ACDC1F3C2C727476001E69C4 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		ACDC1F3E2C727670001E69C4 /* LhamaError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LhamaError.swift; sourceTree = "<group>"; };
+		ACDC1F402C727FDC001E69C4 /* FoodListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodListViewModel.swift; sourceTree = "<group>"; };
+		ACDC1F422C72826F001E69C4 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		ACDC1F4E2C72A187001E69C4 /* FoodDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDetails.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACDC1F462C728D42001E69C4 /* Shimmer in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,8 +73,11 @@
 		ACDC1F232C722DA8001E69C4 /* LhamaFood */ = {
 			isa = PBXGroup;
 			children = (
+				ACDC1F4D2C729F78001E69C4 /* Cells */,
+				ACDC1F4C2C729F62001E69C4 /* Utils */,
+				ACDC1F4B2C729F21001E69C4 /* Model */,
+				ACDC1F472C729EDA001E69C4 /* Screens */,
 				ACDC1F242C722DA8001E69C4 /* LhamaFoodApp.swift */,
-				ACDC1F262C722DA8001E69C4 /* ContentView.swift */,
 				ACDC1F282C722DA9001E69C4 /* Assets.xcassets */,
 				ACDC1F2A2C722DA9001E69C4 /* Preview Content */,
 			);
@@ -65,6 +90,69 @@
 				ACDC1F2B2C722DA9001E69C4 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ACDC1F472C729EDA001E69C4 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				ACDC1F4A2C729F01001E69C4 /* Foods */,
+				ACDC1F492C729EFB001E69C4 /* Order */,
+				ACDC1F482C729EF0001E69C4 /* Account */,
+				ACDC1F262C722DA8001E69C4 /* FoodTabView.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		ACDC1F482C729EF0001E69C4 /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				ACDC1F342C722F5C001E69C4 /* AccountView.swift */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		ACDC1F492C729EFB001E69C4 /* Order */ = {
+			isa = PBXGroup;
+			children = (
+				ACDC1F362C722F6B001E69C4 /* OrderView.swift */,
+			);
+			path = Order;
+			sourceTree = "<group>";
+		};
+		ACDC1F4A2C729F01001E69C4 /* Foods */ = {
+			isa = PBXGroup;
+			children = (
+				ACDC1F322C722F49001E69C4 /* FoodListView.swift */,
+				ACDC1F402C727FDC001E69C4 /* FoodListViewModel.swift */,
+			);
+			path = Foods;
+			sourceTree = "<group>";
+		};
+		ACDC1F4B2C729F21001E69C4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ACDC1F382C7251BC001E69C4 /* Food.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		ACDC1F4C2C729F62001E69C4 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				ACDC1F3C2C727476001E69C4 /* NetworkManager.swift */,
+				ACDC1F422C72826F001E69C4 /* Alert.swift */,
+				ACDC1F3E2C727670001E69C4 /* LhamaError.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		ACDC1F4D2C729F78001E69C4 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				ACDC1F3A2C72732B001E69C4 /* FoodListItem.swift */,
+				ACDC1F4E2C72A187001E69C4 /* FoodDetails.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +171,9 @@
 			dependencies = (
 			);
 			name = LhamaFood;
+			packageProductDependencies = (
+				ACDC1F452C728D42001E69C4 /* Shimmer */,
+			);
 			productName = LhamaFood;
 			productReference = ACDC1F212C722DA8001E69C4 /* LhamaFood.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +202,9 @@
 				Base,
 			);
 			mainGroup = ACDC1F182C722DA8001E69C4;
+			packageReferences = (
+				ACDC1F442C728D42001E69C4 /* XCRemoteSwiftPackageReference "SwiftUI-Shimmer" */,
+			);
 			productRefGroup = ACDC1F222C722DA8001E69C4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +231,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACDC1F272C722DA8001E69C4 /* ContentView.swift in Sources */,
+				ACDC1F352C722F5C001E69C4 /* AccountView.swift in Sources */,
+				ACDC1F332C722F49001E69C4 /* FoodListView.swift in Sources */,
+				ACDC1F412C727FDC001E69C4 /* FoodListViewModel.swift in Sources */,
+				ACDC1F3B2C72732B001E69C4 /* FoodListItem.swift in Sources */,
+				ACDC1F272C722DA8001E69C4 /* FoodTabView.swift in Sources */,
+				ACDC1F3D2C727476001E69C4 /* NetworkManager.swift in Sources */,
+				ACDC1F4F2C72A187001E69C4 /* FoodDetails.swift in Sources */,
 				ACDC1F252C722DA8001E69C4 /* LhamaFoodApp.swift in Sources */,
+				ACDC1F372C722F6B001E69C4 /* OrderView.swift in Sources */,
+				ACDC1F432C72826F001E69C4 /* Alert.swift in Sources */,
+				ACDC1F3F2C727670001E69C4 /* LhamaError.swift in Sources */,
+				ACDC1F392C7251BC001E69C4 /* Food.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,6 +446,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		ACDC1F442C728D42001E69C4 /* XCRemoteSwiftPackageReference "SwiftUI-Shimmer" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/markiv/SwiftUI-Shimmer";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.5.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		ACDC1F452C728D42001E69C4 /* Shimmer */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ACDC1F442C728D42001E69C4 /* XCRemoteSwiftPackageReference "SwiftUI-Shimmer" */;
+			productName = Shimmer;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = ACDC1F192C722DA8001E69C4 /* Project object */;
 }
